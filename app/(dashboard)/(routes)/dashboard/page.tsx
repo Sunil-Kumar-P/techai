@@ -4,7 +4,7 @@ export default function DashboardPage() {
   return (
     <div>
       <Button variant="destructive">Dashboard Page</Button>
-      {/* <UserButton/> */}
+      <UserButton afterSignOutUrl="/"/>
     </div>
   );
 }
